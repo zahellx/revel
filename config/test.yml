@@ -1,0 +1,15 @@
+database:
+  # url: mongodb://localhost:27017/revel
+  url: mongodb://mongodb:27017/revel
+  databaseName: revel
+
+jwt:
+  secret: "12345"
+  accessExpirationMinutes: 30
+  refreshExpirationDays: 20
+
+admin:
+  password: 01admin*
+
+env: test
+port: 3000
