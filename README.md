@@ -4,6 +4,11 @@ RESTful API built with Node.js, Express, and Mongoose.
 ## Quick Start
 To set up the project, you have the option to deploy it either locally or using Docker.
 
+In both cases you need install some dependencies. You have to run:
+```bash
+npm install 
+```
+
 If you opt for a local deployment, a running instance of MongoDB is mandatory.
 
 The quickest way to get the project running is by using Docker commands. Executing npm run docker:dev and docker:test will initiate a MongoDB instance and the application itself, with all configurations linked properly.
